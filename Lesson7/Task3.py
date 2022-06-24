@@ -1,3 +1,5 @@
+
+
 class Cell:
     __count: int
 
@@ -51,9 +53,10 @@ first = Cell(3)
 second = Cell(2)
 huge = Cell(12)
 
-print(first + second)  # 3 + 2 = 5
-print(first - second)  # 3 - 2 = 1
-print(first * second)  # 3 * 2 = 6
-print(first / second)  # 3 / 2 = 1 (округление)
+print(first + second)
+print(first - second)
+print(first * second)
+print(first / second)
 
 print(Cell.make_order(huge, 5))
+

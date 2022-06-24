@@ -45,3 +45,4 @@ cloth_3 = Costume(174)
 print(cloth_3)
 cloth_4 = Coat(45)
 print(cloth_4)
+
