@@ -1,3 +1,4 @@
+
 class OwnError(Exception):
     pass
 
